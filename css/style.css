@@ -34,20 +34,22 @@ ul {list-style:none;}
 #maincontent {padding:40px 25px 0 25px;}
 #leftcontent {display:block; float:left; width:691px;}
 #sidebar{float:right; width:240px; padding:25px 5px 5px 5px; display:block;}
-#leftcontent header#pageheader {display:block; background:url(../images/pageheader.jpg) no-repeat; height:169px; padding:10px;}
+/*#leftcontent header#pageheader {display:block; background:url(../images/pageheader.jpg) no-repeat; height:169px; padding:10px;}*/
+#leftcontent header#pageheader {display:block; height:205px; padding:15px;}
 #leftcontent.normalpage {display:block; background:url(../images/pageheader.jpg) no-repeat; padding-top:10px!important}
 
 #pageheader h1 {display:block; font-size:11px; font-weight:normal; padding:10px;}
 #pageheader h2#introduction {
 	font-size:14px;
 	font-weight:normal;
-	padding:0 10px 0 25px;
+	padding:0 5px 0 11px;
 	display:block;
-	width:500px;
+	/*width:500px;*/
 	color:#5d3648;
 	line-height:24px;
 }
-h2#introduction span {font: normal 24px 'Lobster'; display:block; color:#7a7953; margin-bottom:8px;}
+/*h2#introduction span {font: normal 24px 'Lobster'; display:block; color:#7a7953; margin-bottom:8px;}*/
+h2#introduction span {font: normal 24px 'Lobster'; display:block; margin-bottom:8px;}
 
 h1, h2, h3, h4, h5 {text-shadow:#fff 1px 1px 1px;}
 a {color:#7d2e55;}
