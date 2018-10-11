@@ -5,31 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>xy14</title>
 </head>
 
 <body>
 <div id="wrap">
+    <!--头部公共导航-->
     <div id="header_nav"></div>
+
     <div id="maincontent">
         <section id="leftcontent">
             <header id="pageheader">
-                <h1>Roshan Ravi // Web Designer</h1>
+                <h1>音乐（抽象艺术）</h1>
                 <h2 id="introduction">
-                    <span>Hello there,</span>
-                    High-Five template was originally designed for my own website and I decided to give it away for
-                    free
-                    under a GNU-GPL License. You are free to use it in any way you want. A link back to this website
-                    is
-                    appreciated.</h2>
-
+                    <span>音乐是反映人类现实生活情感的一种艺术（英名称：music；法文名称： musique；意大利文：musica）。</span>
+                    音乐可以分为声乐和器乐两大类型，又可以粗略的分为古典音乐、民间音乐、原生态音乐、现代音乐（包括流行音乐）等。在艺术类型中，音乐具有抽象性，音乐从历史发展上可分为东方音乐和西方音乐。东方以中国汉族音乐为首的中国古代理论基础是五声音阶，即宫、商、角、徵、羽，西方是以七声音阶为主。音乐让人赏心悦目，并为大家带来听觉的享受。音乐能提高人的审美能力，净化人们的心灵，树立崇高的理想。我们通过音乐来抒发我们的情感，使我们的很多情绪得到释放。</h2>
             </header>
             <section id="leftcontents">
                 <header id="mainheading">
                     <h2>Latest from the journal</h2>
-
-
                 </header>
                 <div id="contentwrap">
                     <section class="postinfo">
@@ -143,6 +138,7 @@
 
         </section>
 
+        <!--右侧公共导航-->
         <div id="right_nav"></div>
 
         <div class="clear"></div>
@@ -181,16 +177,19 @@
     </div>
     <div class="clear"></div>
 </div>
+
+<!--footer-->
 <div id="footer_nav"></div>
 </body>
 
-<!--<script type="text/ecmascript" src="./js/html5.js"></script>-->
-<!--<script type="text/ecmascript" src="./js/include.js"></script>-->
+<script type="text/ecmascript" src="./js/html5.js"></script>
 <script type="text/ecmascript" src="./js/jquery-3.3.1.min.js"></script>
 <script>
-    $("#right_nav").load("./right.html");
-    $("#header_nav").load("./header.html");
-    $("#footer_nav").load("./footer.html");
+    $(function () {
+        $("#right_nav").load("./right.html");
+        $("#header_nav").load("./header.html");
+        $("#footer_nav").load("./footer.html");
+    });
 </script>
 
 </html>
