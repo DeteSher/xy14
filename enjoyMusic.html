@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <link href="common/css/style.css" rel="stylesheet" type="text/css">
+    <title>赏乐导航</title>
+</head>
+
+<body>
+<div id="wrap">
+    <!--头部公共导航-->
+    <div id="header_nav"></div>
+
+    <div id="maincontent">
+        <section id="leftcontent" class="normalpage">
+            <section id="leftcontents">
+                <header id="mainheading">
+                    <h2>赏乐地址</h2>
+                </header>
+                <div id="contentwrap" class="portfolio">
+                    <article>
+                        <header>
+                            <h3>随便听听</h3>
+                        </header>
+                        <div class="pfitem">
+                            <div class="pfinfo">
+                                <div><a href="">网易云音乐</a></div>
+                                <div><a href="">QQ音乐</a></div>
+                                <div><a href="">酷狗音乐</a></div>
+                                <div><a href="">咪咕音乐</a></div>
+                                <div><a href="">千千音乐</a></div>
+                                <div><a href="">echo回声</a></div>
+                                <div><a href="">酷我音乐</a></div>
+                                <div><a href="">一听音乐</a></div>
+                                <div><a href="">九酷音乐</a></div>
+                                <div><a href="">九天音乐</a></div>
+                                <div><a href="">365音乐</a></div>
+                                <div><a href="">搜狗音乐</a></div>
+                                <div><a href="">虾米音乐</a></div>
+                                <div><a href="">多米音乐</a></div>
+                                <div><a href="">乐播</a></div>
+                                <p class="pftags">
+                                    未完成....有空更新
+                                </p>
+                                <a href="#nogo" class="txtbtn">View Website</a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                    </article>
+                </div>
+            </section>
+        </section>
+        <!--右侧公共导航-->
+        <div id="right_nav"></div>
+    </div>
+</div>
+
+<!--footer-->
+<div id="footer_nav"></div>
+
+</body>
+<script type="text/ecmascript" src="common/js/html5.js"></script>
+<script type="text/ecmascript" src="common/js/jquery-3.3.1.min.js"></script>
+<script>
+    $(function () {
+        $("#header_nav").load("common/view/header.html", function () {
+            $('#topnav ul li').removeClass('active');
+            $('#topnav ul li').eq(1).addClass("active");
+        });
+        $("#right_nav").load("common/view/right.html");
+        $("#footer_nav").load("common/view/footer.html");
+    });
+</script>
+</html>

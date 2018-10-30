@@ -47,6 +47,7 @@ ul {list-style:none;}
 	/*width:500px;*/
 	color:#5d3648;
 	line-height:24px;
+	text-indent: 2em;
 }
 /*h2#introduction span {font: normal 24px 'Lobster'; display:block; color:#7a7953; margin-bottom:8px;}*/
 h2#introduction span {font: normal 24px 'Lobster'; display:block; margin-bottom:8px;}
